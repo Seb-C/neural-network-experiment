@@ -1,10 +1,7 @@
 package main
 
-import "Seb-C/neural-network-experiment/nne"
+import "Seb-C/neural-network-experiment/line"
 
 func main() {
-	//genetic.
-	//	NewRandomPopulation().
-	//	DoGenerations(100, 321).
-	//	PrintResults()
+	line.NewRandomPixelBitMap().Print()
 }
